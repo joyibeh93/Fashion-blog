@@ -162,6 +162,39 @@ p {
 
 
 /* ----------------------------------------------------
+------------------styling the section form -----------
+--------------------------------------------------------*/
+
+.form-info {
+    margin: 0 auto;
+    width: 70%;
+    padding: 40px;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    width: 90%;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(200, 207, 213);
+    outline: none;
+}
+
+textarea {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* ----------------------------------------------------
 ------------------styling the section footer -----------
 --------------------------------------------------------*/
 
