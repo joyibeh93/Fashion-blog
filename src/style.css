@@ -10,7 +10,7 @@
 ------------------------------------------------*/
 
 header {
-    background-color: rgb(57, 57, 241);
+    background-color: rgb(98, 98, 194);
     padding: 0.9375rem;
     position: relative;
 }
@@ -72,7 +72,7 @@ nav,
 ------------------------------------------------*/
 
 .bg-image {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url(./images/imageslide2.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.168), rgba(0, 0, 0, 0.168)), url(./images/imageslide2.jpg);
     height: 40rem;
     background-position: center;
     background-repeat: repeat;
@@ -88,11 +88,24 @@ nav,
 }
 
 .header-info h1 {
-    font-size: 2.1875rem;
-    color: #fff;
+    color: gray;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.header-info h1,
+p {
+    font-size: 18px;
+    text-align: center;
     font-weight: 600;
-    line-height: 1.5em;
     word-spacing: 2px;
+}
+
+.header-info p {
+    color: blue;
+    line-height: 1.5em;
+    background-color: #fff;
 }
 
 .btn-register {
@@ -114,4 +127,31 @@ nav,
     text-decoration: underline;
     letter-spacing: 2px;
     margin-bottom: 0.125rem;
+}
+
+
+/* ----------------------------------------------------
+------------------styling the section footer -----------
+--------------------------------------------------------*/
+
+.learning-footer {
+    background-color: rgb(2, 2, 5);
+    padding: 40px;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer-icon i {
+    display: inline-block;
+    margin: 0.3125rem auto;
+    color: #fff;
+    width: 5%;
+    font-size: 1.4375rem;
+}
+
+.learning-footer p {
+    text-align: center;
+    color: #fff;
 }
